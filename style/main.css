@@ -1,0 +1,230 @@
+
+P.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+}
+main {
+  display: flex;
+
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  position: relative;
+  background-color: rgb(225, 223, 186);
+  border-top: none;
+}
+main table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse; /* Убирает двойные границы между ячейками */
+}
+
+main td,
+main th {
+  border: 1px solid black;
+  padding: 5px; /* Добавляет отступ к ячейкам */
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  z-index: -1;
+}
+
+aside a {
+  width: 200px;
+  margin-right: 20px;
+  background-color: rgb(225, 223, 186);
+}
+aside a:hover {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(187, 166, 227);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+aside a:active {
+  text-decoration: none;
+  color: rgb(12, 0, 61);
+  background-color: rgb(120, 192, 255);
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+
+nav {
+  border-top: 1px solid #ffffff;
+  padding: 20px;
+}
+
+input[type="button"],
+input[type="submit"] {
+  text-decoration: none;
+  color: rgb(12, 0, 61);
+  background-color: #9eb594;
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+
+input[type="button"],
+input[type="submit"]:active {
+  text-decoration: none;
+  color: rgb(12, 0, 61);
+  background-color: #82765e;
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+input[type="button"],
+input[type="submit"]:hover {
+  text-decoration: none;
+  color: rgb(12, 0, 61);
+  background-color: #cbbb86;
+  padding: 7px 15px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+div.container4 {
+  height: 10em;
+  position: relative;
+}
+div.container4 p {
+  margin: 0;
+  background: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+tr:hover {
+  background-color: #d5ad5e;
+}
+
+.content1{
+  transition-timing-function: ease-in;
+  transition-duration: 0.2s;
+}
+
+.content1:hover {
+  background: #e0d908;
+  color: #c91010;
+}
+
+@media all and (max-width: 400px) {
+
+  P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+  }
+  main {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    position: relative;
+    background-color: #439ec9;
+    border-top: none;
+  }
+  main table {
+    margin: 0 auto;
+    width: 80%;
+    border-collapse: collapse;
+  }
+
+  main td,
+  main th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+
+  main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    z-index: -1;
+  }
+
+  aside a {
+    width: 200px;
+    margin-right: 20px;
+    background-color: #439ec9;
+  }
+  aside a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(187, 166, 227);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+
+  aside a:active {
+    text-decoration: none;
+    color: rgb(12, 0, 61);
+    background-color: rgb(0, 100, 187);
+    padding: 7px 15px;
+    border-radius: 15px;
+  }
+
+  nav {
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+  }
+
+  input[type="button"],
+  input[type="submit"] {
+    text-decoration: none;
+    color: rgb(12, 0, 61);
+    background-color: #9eb594;
+    padding: 7px 15px;
+    border-radius: 15px;
+  }
+
+  input[type="button"],
+  input[type="submit"]:active {
+    text-decoration: none;
+    color: rgb(12, 0, 61);
+    background-color: #82765e;
+    padding: 7px 15px;
+    border-radius: 15px;
+  }
+  input[type="button"],
+  input[type="submit"]:hover {
+    text-decoration: none;
+    color: rgb(12, 0, 61);
+    background-color: #ccb464;
+    padding: 7px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  div.container4 {
+    height: 10em;
+    position: relative;
+  }
+  div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  tr:hover {
+    background-color: #d5ad5e;
+  }
+}
+div.tablica {
+    width: 100%;
+    
+}

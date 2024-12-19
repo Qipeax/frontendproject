@@ -1,0 +1,71 @@
+body {
+  z-index: 5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 4;
+  text-align: center;
+  padding: 20px;
+  align-items: center;
+}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.special-font {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(34, 255, 0);
+  text-decoration: underline;
+}
+
+
+
+@media screen and (max-width: 400px) {
+body {
+  z-index: 5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(1, 100%);
+}
+.service {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.special-font {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(34, 255, 0);
+  text-decoration: underline;
+}
+}
