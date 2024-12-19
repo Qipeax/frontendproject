@@ -1,0 +1,138 @@
+header {
+  width:max;
+  background-color: black;
+  padding: 20px 0px 0px 0px;
+}
+
+header p {
+  color: aliceblue;
+}
+header li {
+  color: rgb(25, 135, 231);
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo {
+  width: 49px;
+  height: 49px;
+  border: 1px solid #000;
+}
+
+nav {
+  border-top: 1px solid #ffffff;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 260px;
+  justify-content: flex-start;
+}
+
+header a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 7px 15px;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: rgb(21, 0, 104);
+  padding: 7px 15px;
+  border-radius: 10px;
+}
+
+header a:active {
+  text-decoration: none;
+  color: rgb(12, 0, 61);
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+/* .parent {
+  display: grid;
+  grid-template-columns: repeat(5, 330px);
+} */
+
+.zoom-effect {
+  transition: transform 0.4s;
+}
+.zoom-effect:hover {
+  transform: scale(2);
+}
+
+
+@media screen and (max-width: 400px) {
+  nav {
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  header {
+    background-color: black;
+    padding: 20px 0px 0px 0px;
+  }
+
+  header p {
+    color: aliceblue;
+  }
+  header li {
+    color: rgb(2, 193, 236);
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+  }
+
+  nav {
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 260px;
+    justify-content: flex-start;
+  }
+
+  header a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 7px 15px;
+  }
+
+  header a:hover {
+    text-decoration: none;
+    color: rgb(21, 0, 104);
+    background-color: #36454f;
+    padding: 7px 15px;
+    border-radius: 15px;
+  }
+
+  header a:active {
+    text-decoration: none;
+    color: rgb(12, 0, 61);
+    background-color: rgb(120, 192, 255);
+    padding: 7px 15px;
+    border-radius: 15px;
+  }
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+  }
+  
+}
